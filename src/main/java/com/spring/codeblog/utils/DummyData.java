@@ -2,7 +2,6 @@ package com.spring.codeblog.utils;
 
 import com.spring.codeblog.models.Post;
 import com.spring.codeblog.repositories.CodeblogRepository;
-import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
