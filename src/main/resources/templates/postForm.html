@@ -28,7 +28,7 @@
             </ol>
         </nav>
         <div>
-            <th:block th:include="mensagemValidacao"></th:block>
+            <th:block th:insert="mensagemValidacao"></th:block>
             <form method="POST">
                 <div class="form-group py-2">
                     <input type="text" class="form-control" name="titulo" placeholder="Título *">
@@ -44,7 +44,7 @@
 
                 <div>
                     <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Publicar</button>
-                    <a href="/post" class="btn btn-light" role="button" style="margin-top: 10px;">Cancelar</a>
+                    <a href="/posts" class="btn btn-light" role="button" style="margin-top: 10px;">Cancelar</a>
                 </div>
             </form>
         </div>
